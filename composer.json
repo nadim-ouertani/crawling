@@ -1,0 +1,21 @@
+{
+    "name": "nadim/crawling",
+    "description": "A package to crawl google search results with multiple keywords.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SearchEngine\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nadim Ouertani",
+            "email": "nadimouertani@hotmail.com"
+        }
+    ],
+    "require": {
+      "ext-curl": "*",
+      "ext-json": "*"
+    }
+}
